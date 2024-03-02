@@ -106,10 +106,10 @@ dependencies {
     kapt(Libs.glideCompiler)
 
     //Viewpager2 indicator
-    implementation(Libs.viewPagerIndicator)
+    //implementation(Libs.viewPagerIndicator)
 
     //StepView
-    implementation(Libs.stepView)
+    //implementation(Libs.stepView)
 
 }
 // Non-existent type correction. Needed for Hilt.
