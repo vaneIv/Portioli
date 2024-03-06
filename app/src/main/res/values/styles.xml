@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Widget.Portioli.Button" parent="@style/Widget.MaterialComponents.Button">
+        <item name="itemTextAppearance">?attr/textAppearanceButton</item>
+        <item name="itemTextColor">?attr/colorPrimary</item>
+        <item name="android:textColor">?attr/colorPrimary</item>
+        <item name="backgroundTint">?attr/colorSecondary</item>
+    </style>
+
+    <style name="Widget.Portioli.Subtitle" parent="@style/Widget.AppCompat.TextView">
+<!--                <item name="itemTextAppearance">?attr/textAppearanceSubtitle2</item>-->
+        <item name="android:textAppearance">?attr/textAppearanceSubtitle2</item>
+        <item name="fontFamily">@font/montserrat_medium</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="Widget.Portioli.EditText" parent="@style/Widget.AppCompat.EditText">
+        <item name="backgroundTint">?attr/colorSecondary</item>
+        <item name="fontFamily">@font/montserrat_light</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textAppearance">?attr/textAppearanceSubtitle1</item>
+    </style>
+
+</resources>

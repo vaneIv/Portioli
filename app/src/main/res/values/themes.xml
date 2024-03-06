@@ -1,9 +1,35 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Final, top-level theme-->
+    <style name="Theme.Portioli" parent="Base.Theme.Portioli" />
+
     <!-- Base application theme. -->
     <style name="Base.Theme.Portioli" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+        <!--Color-->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorSecondary">@color/portioli_purple_600</item>
+        <item name="colorSecondaryVariant">@color/portioli_green_300</item>
+        <item name="colorOnPrimary">@color/black</item>
+
+        <!--Typography-->
+        <item name="textAppearanceHeadline1">@style/TextAppearance.Portioli.Headline1</item>
+        <item name="textAppearanceHeadline2">@style/TextAppearance.Portioli.Headline2</item>
+        <item name="textAppearanceHeadline3">@style/TextAppearance.Portioli.Headline3</item>
+        <item name="textAppearanceHeadline4">@style/TextAppearance.Portioli.Headline4</item>
+        <item name="textAppearanceHeadline5">@style/TextAppearance.Portioli.Headline5</item>
+        <item name="textAppearanceHeadline6">@style/TextAppearance.Portioli.Headline6</item>
+        <item name="textAppearanceSubtitle1">@style/TextAppearance.Portioli.Subtitle1</item>
+        <item name="textAppearanceSubtitle2">@style/TextAppearance.Portioli.Subtitle2</item>
+        <item name="textAppearanceBody1">@style/TextAppearance.Portioli.Body1</item>
+        <item name="textAppearanceBody2">@style/TextAppearance.Portioli.Body2</item>
+        <item name="textAppearanceButton">@style/TextAppearance.Portioli.Button</item>
+        
+        <!--Styles-->
+        <item name="buttonStyle">@style/Widget.Portioli.Button</item>
+        <item name="subtitleTextStyle">@style/Widget.Portioli.Subtitle</item>
+        <item name="editTextStyle">@style/Widget.Portioli.EditText</item>
+
     </style>
 
-    <style name="Theme.Portioli" parent="Base.Theme.Portioli" />
 </resources>

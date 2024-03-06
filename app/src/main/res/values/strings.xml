@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Portioli</string>
+
+    <string name="password_hint">Password</string>
+    <string name="email_hint">Enter your email</string>
+    <string name="log_in_to_account_label">Log in to your account</string>
+    <string name="account_signup_label">Don\'t have an account? Sign up</string>
+    <string name="password_reset_label">Reset your password</string>
 </resources>
