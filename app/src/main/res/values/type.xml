@@ -44,7 +44,7 @@
     </style>
 
     <style name="TextAppearance.Portioli.Button" parent="TextAppearance.MaterialComponents.Button">
-        <item name="fontFamily">@font/montserrat_bold</item>
+        <item name="fontFamily">@font/montserrat_medium</item>
         <item name="textAllCaps">false</item>
         <item name="android:textAllCaps">false</item>
         <item name="android:letterSpacing">0</item>

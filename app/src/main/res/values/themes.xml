@@ -29,6 +29,7 @@
         <item name="buttonStyle">@style/Widget.Portioli.Button</item>
         <item name="subtitleTextStyle">@style/Widget.Portioli.Subtitle</item>
         <item name="editTextStyle">@style/Widget.Portioli.EditText</item>
+        <item name="textInputOutlinedStyle">@style/Widget.Portioli.TextInputLayout</item>
 
     </style>
 

@@ -2,8 +2,13 @@
     <string name="app_name">Portioli</string>
 
     <string name="password_hint">Password</string>
-    <string name="email_hint">Enter your email</string>
+    <string name="email_hint">Email</string>
     <string name="log_in_to_account_label">Log in to your account</string>
-    <string name="account_signup_label">Don\'t have an account? Sign up</string>
+    <string name="dont_have_account_label">Don\'t have an account?</string>
     <string name="password_reset_label">Reset your password</string>
+    <string name="first_name_hint">First name</string>
+    <string name="last_name_hint">Last name</string>
+    <string name="create_account_label">Create account</string>
+    <string name="sign_in_label">Sign in</string>
+    <string name="sign_up_label">Sign up</string>
 </resources>

@@ -6,6 +6,7 @@
         <item name="itemTextColor">?attr/colorPrimary</item>
         <item name="android:textColor">?attr/colorPrimary</item>
         <item name="backgroundTint">?attr/colorSecondary</item>
+        <item name="android:textSize">20sp</item>
     </style>
 
     <style name="Widget.Portioli.Subtitle" parent="@style/Widget.AppCompat.TextView">
@@ -17,10 +18,30 @@
 
     <style name="Widget.Portioli.EditText" parent="@style/Widget.AppCompat.EditText">
         <item name="backgroundTint">?attr/colorSecondary</item>
-        <item name="fontFamily">@font/montserrat_light</item>
+        <item name="fontFamily">@font/montserrat_bold</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">28sp</item>
+<!--        <item name="android:textAppearance">?attr/textAppearanceSubtitle1</item>-->
+    </style>
+
+    <style name="Widget.Portioli.TextInputLayout" parent="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:textAppearance">?attr/textAppearanceSubtitle1</item>
+        <item name="materialThemeOverlay">@style/ThemeOverlay.AppTheme.TextInputEditText.OutlinedBox.Dense</item>
+        <item name="fontFamily">@font/montserrat_regular</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="hintTextColor">?attr/colorSecondary</item>
+        <item name="boxStrokeColor">?attr/colorSecondary</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textSize">18sp</item>
-        <item name="android:textAppearance">?attr/textAppearanceSubtitle1</item>
+    </style>
+
+<!--    <style name="ThemeOverlay.AppTheme.TextInputEditText.FilledBox.Dense" parent="ThemeOverlay.MaterialComponents.TextInputEditText.FilledBox.Dense">-->
+<!--        <item name="colorControlActivated">?attr/colorOnPrimary</item>-->
+<!--    </style>-->
+
+    <style name="ThemeOverlay.AppTheme.TextInputEditText.OutlinedBox.Dense" parent="ThemeOverlay.MaterialComponents.TextInputEditText.OutlinedBox.Dense">
+        <item name="colorControlActivated">?attr/colorOnPrimary</item>
     </style>
 
 </resources>
